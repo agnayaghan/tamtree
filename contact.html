@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - TamTree LLC</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Playfair+Display:wght@700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="animated-bg">
+        <div class="mesh-gradient"></div>
+        <div class="floating-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+            <div class="shape shape-4"></div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <div class="nav-brand">
+                <div class="logo-container">
+                    <img src="assets/logo.png" alt="TamTree Logo" class="logo-img">
+                </div>
+                <div class="brand-text-wrapper">
+                    <span class="brand-text">TamTree</span>
+                    <span class="brand-subtitle">LLC</span>
+                </div>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="services.html" class="nav-link">Services</a></li>
+                <li><a href="training.html" class="nav-link">Training</a></li>
+                <li><a href="contact.html" class="btn-primary-nav">Get Started</a></li>
+            </ul>
+            <button class="mobile-toggle" id="mobileToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <div class="page-header-content">
+                <span class="page-subtitle">Get In Touch</span>
+                <h1 class="page-title">Let's Build Something <span class="gradient-text">Amazing Together</span></h1>
+                <p class="page-description">We're here to help you transform your ideas into reality</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-form-wrapper">
+                    <h2 class="contact-form-title">Send Us a Message</h2>
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" required placeholder="John Doe">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required placeholder="john@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" placeholder="+1 (555) 123-4567">
+                        </div>
+                        <div class="form-group">
+                            <label for="service">Service Interest</label>
+                            <select id="service" name="service">
+                                <option value="">Select a service</option>
+                                <option value="web-mobile">Web & Mobile Development</option>
+                                <option value="fullstack">Fullstack Development</option>
+                                <option value="sap-peoplesoft">SAP & PeopleSoft</option>
+                                <option value="staffing">Technology Staffing</option>
+                                <option value="training">Training Programs</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" rows="6" required placeholder="Tell us about your project..."></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary btn-large">
+                            Send Message
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M4 10H16M16 10L10 4M16 10L10 16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                        </button>
+                    </form>
+                </div>
+
+                <div class="contact-info-wrapper">
+                    <h2 class="contact-info-title">Contact Information</h2>
+                    <p class="contact-info-desc">Reach out to us through any of these channels. We're available 24/7 to assist you.</p>
+                    
+                    <div class="contact-info-cards">
+                        <div class="info-card">
+                            <div class="info-icon">🇺🇸</div>
+                            <h3 class="info-card-title">USA Office</h3>
+                            <p class="info-card-text">5900 Balcones Drive, STE 100<br>Austin, TX 78731</p>
+                            <a href="tel:+19725232289" class="info-link">+1 (972) 523-2289</a>
+                        </div>
+
+                        <div class="info-card">
+                            <div class="info-icon">🇮🇳</div>
+                            <h3 class="info-card-title">India Office</h3>
+                            <p class="info-card-text">1/62 Kilsathambur<br>Namakkal, Tamil Nadu 637207</p>
+                            <a href="tel:+916369669424" class="info-link">+91 6369669424</a>
+                        </div>
+
+                        <div class="info-card">
+                            <div class="info-icon">⏰</div>
+                            <h3 class="info-card-title">Business Hours</h3>
+                            <p class="info-card-text">Monday - Friday: 9:00 AM - 6:00 PM<br>Saturday: 10:00 AM - 4:00 PM<br>Sunday: Closed</p>
+                        </div>
+
+                        <div class="info-card">
+                            <div class="info-icon">💬</div>
+                            <h3 class="info-card-title">Quick Response</h3>
+                            <p class="info-card-text">Average response time: 2-4 hours during business days. Emergency support available 24/7.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <img src="assets/logo.png" alt="TamTree Logo">
+                        <span>TamTree LLC</span>
+                    </div>
+                    <p class="footer-about">Your trusted partner for digital transformation, delivering innovative solutions that drive business success.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="training.html">Training</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>USA Office</h4>
+                    <ul class="footer-contact">
+                        <li>5900 Balcones Drive, STE 100</li>
+                        <li>Austin, TX 78731</li>
+                        <li>+1 (972) 523-2289</li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>India Office</h4>
+                    <ul class="footer-contact">
+                        <li>1/62 Kilsathambur</li>
+                        <li>Namakkal, Tamil Nadu 637207</li>
+                        <li>+91 6369669424</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 TamTree LLC. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
